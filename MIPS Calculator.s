@@ -3,7 +3,7 @@
 # This program performs basic operations like addition,  # 
 # subtraction, multiplication and division, and prints   # 
 # the result. The input needs to be an integer. Overflow #
-# and division for zero are handled.			 #
+# and division for zero are handled.		     	 #
 ##########################################################
 READ_INT = 5
 READ_STRING = 8
@@ -17,7 +17,7 @@ EXIT         = 10
 	.globl main
 main:	
    
-   li	$v0, WRITE_STRING	        # Ask user to input number
+   li	$v0, WRITE_STRING	         # Ask user to input number
 	la	$a0, int		
 	syscall
 
